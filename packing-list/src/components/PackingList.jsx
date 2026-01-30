@@ -1,10 +1,14 @@
 import React from 'react'
+import  {initailItems} from "../data/data"
+import Item from './Item';
 
 function PackingList() {
   return (
-    <div className='list'>
-      <span>item-List</span>
-    </div>
+      <ul className='list'>
+        <span className='flex justify-center gap-12'>
+    {initailItems.map((item) =>(<Item item={item}/>) )}
+    </span>
+      </ul>
   )
 }
 
