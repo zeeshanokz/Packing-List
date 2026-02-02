@@ -12,14 +12,15 @@
   padding-top: 25px;
   font-weight: bolder;
   font-size: larger;
+  padding-top: 10px;
 }
 .form {
   background-color: orange;
-  height: 50px;
+  height: 60px;
   text-align: center;
   align-items: center;
   font-size: medium;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 .list {
   background-color: chocolate;
@@ -34,5 +35,6 @@
   align-items: center;
   font-size: medium;
   font-weight: bold;
-  height: 40px;
+  height: 67px;
+  padding-top: 15px;
 }
