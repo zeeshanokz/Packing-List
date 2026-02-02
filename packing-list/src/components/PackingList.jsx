@@ -6,7 +6,7 @@ function PackingList() {
   return (
       <ul className='list'>
         <span className='flex justify-center gap-12'>
-    {initailItems.map((item) =>(<Item item={item}/>) )}
+    {initailItems.map((item) =>(<Item item={item} key={item.id} />) )}
     </span>
       </ul>
   )

@@ -6,7 +6,7 @@ function Item({item}) {
      <span style={item.packed ? { textDecoration: "line-through"} : {}}>
      {item.quality}   {item.description}
     </span>
-    <button>❌</button>
+    <button>✖️</button>
     </li>
   )
 }
